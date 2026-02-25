@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Denno</a>
+            
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="skills.html" class="nav-link active">Skills</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="certifications.html" class="nav-link">Certifications</a>
+                <a href="resume.html" class="nav-link">Resume</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Skills Hero -->
+    <section class="skills-hero">
+        <div class="container">
+            <h1>Technical <span class="highlight">Skills</span></h1>
+            <p>A comprehensive overview of my technical expertise, tools and continuous learning journey</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="skills-main container">
+        <!-- Frontend Skills -->
+        <section class="skill-category">
+            <h2><i class="fas fa-paint-brush"></i> Frontend Development</h2>
+            <div class="skills-grid">
+                <div class="skill-card highlight-card">
+                    <div class="experience-badge">Expert</div>
+                    <h3>frontend development</h3>
+                    <div class="skill-item">
+                        <span>Django</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 95%"></div>
+                        </div>
+                        <small>Advanced webdevelopment using python,API routes </small>
+                    </div>
+                    <div class="skill-item">
+                        <span>HTML</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%"></div>
+                        </div>
+                        <small>for web structure,skeleton of a website</small>
+                    </div>
+                    <div class="skill-item">
+                        <span>CSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%"></div>
+                        </div>
+                        <small>for web styling and making it facial appealing</small>
+                    </div>
+                    <div class="skill-item">
+                        <span>JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 90%"></div>
+                        </div>
+                        <small>adding functionality,and make website live</small>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <h3>UI/UX & Styling</h3>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-check"></i> HTML5 & Semantic Markup</li>
+                        <li><i class="fas fa-check"></i> CSS3 & Modern Layouts (Flexbox, Grid)</li>
+                        <li><i class="fas fa-check"></i> SASS/SCSS & CSS-in-JS</li>
+                        <li><i class="fas fa-check"></i> Responsive Design & Mobile First</li>
+                        <li><i class="fas fa-check"></i> Accessibility (WCAG)</li>
+                        <li><i class="fas fa-check"></i> UI Component Libraries</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Backend Skills -->
+        <section class="skill-category">
+            <h2><i class="fas fa-server"></i> Backend Development</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Django</h3>
+                    <div class="skill-item">
+                        <span>Django</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 88%"></div>
+                        </div>
+                        <small>Express, middleware, REST APIs</small>
+                    </div>
+                    <div class="skill-item">
+                        <span>TypeScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 82%"></div>
+                        </div>
+                        <small>Type safety, interfaces, generics</small>
+                    </div>
+                    <div class="skill-item">
+                        <span>Python</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 75%"></div>
+                        </div>
+                        <small>FastAPI, Flask, scripting</small>
+                    </div>
+                </div>
+                
+                <div class="skill-card highlight-card">
+                    <div class="experience-badge">Advanced</div>
+                    <h3>Databases</h3>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-check"></i> MySQL</li>
+                        <li><i class="fas fa-check"></i> PostgreSQL & SQL</li>
+                        <li><i class="fas fa-check"></i> Redis for caching</li>
+                        <li><i class="fas fa-check"></i> Database design & optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tools & DevOps -->
+        <section class="skill-category">
+            <h2><i class="fas fa-tools"></i> Tools & DevOps</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Development Tools</h3>
+                    <div class="tools-grid">
+                        <div class="tool-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fab fa-docker"></i>
+                            <span>Figma</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fas fa-terminal"></i>
+                            <span>CLI</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fas fa-code"></i>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fab fa-npm"></i>
+                            <span>android</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fas fa-network-wired"></i>
+                            <span>Webpack</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <h3>DevOps & Cloud</h3>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-check"></i> AWS (EC2, S3, Lambda)</li>
+                        <li><i class="fas fa-check"></i> CI/CD Pipelines</li>
+                        <li><i class="fas fa-check"></i> Nginx configuration</li>
+                        <li><i class="fas fa-check"></i> Linux server management</li>
+                        <li><i class="fas fa-check"></i> Monitoring & logging</li>
+                        <li><i class="fas fa-check"></i> Security best practices</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Soft Skills -->
+        <section class="skill-category">
+            <h2><i class="fas fa-users"></i> Professional Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Communication & Leadership</h3>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-check"></i> Technical documentation</li>
+                        <li><i class="fas fa-check"></i> Team collaboration</li>
+                        <li><i class="fas fa-check"></i> Mentoring & coaching</li>
+                        <li><i class="fas fa-check"></i> Stakeholder communication</li>
+                        <li><i class="fas fa-check"></i> Agile methodologies</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-card">
+                    <h3>Problem Solving</h3>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-check"></i> Analytical thinking</li>
+                        <li><i class="fas fa-check"></i> Debugging complex issues</li>
+                        <li><i class="fas fa-check"></i> System design</li>
+                        <li><i class="fas fa-check"></i> Performance optimization</li>
+                        <li><i class="fas fa-check"></i> Technical research</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Learning Goals -->
+        <section class="learning-goals">
+            <div class="container">
+                <h2>Currently <span class="highlight">Learning</span></h2>
+                <div class="goals-grid">
+                    <div class="goal-card">
+                        <h3><i class="fas fa-chart-line"></i> Advanced Topics</h3>
+                        <ul>
+                            <li>GraphQL & Apollo</li>
+                            <li>WebAssembly</li>
+                            <li>Microservices architecture</li>
+                            <li>Real-time android applications</li>
+                        </ul>
+                    </div>
+                    <div class="goal-card">
+                        <h3><i class="fas fa-brain"></i> AI/ML Integration</h3>
+                        <ul>
+                            <li>TensorFlow.js</li>
+                            <li>ML APIs integration</li>
+                            <li>AI-powered features</li>
+                            <li>Data visualization</li>
+                        </ul>
+                    </div>
+                    <div class="goal-card">
+                        <h3><i class="fas fa-shield-alt"></i> Security</h3>
+                        <ul>
+                            <li>Advanced security practices</li>
+                            <li>Penetration testing basics</li>
+                            <li>Compliance standards</li>
+                            <li>Secure architecture</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+  <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">Portfolio</div>
+                    <p class="footer-tagline">Building digital experiences that make a difference. Let's create something amazing together.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <a href="index.html" class="footer-link">Home</a>
+                    <a href="about.html" class="footer-link">About</a>
+                    <a href="projects.html" class="footer-link">Projects</a>
+                    <a href="contact.html" class="footer-link">Contact</a>
+                </div>
+                
+                <div class="footer-links">
+                    <h3 class="footer-title">Resources</h3>
+                    <a href="skills.html" class="footer-link">Skills</a>
+                    <a href="certifications.html" class="footer-link">Certifications</a>
+                    <a href="resume.html" class="footer-link">Resume</a>
+                    <a href="#" class="footer-link">Blog</a>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3 class="footer-title">Get In Touch</h3>
+                    <p class="footer-link">nandasavadennis@gmail.com</p>
+                    <p class="footer-link">+ (254) 79 634-0800</p>
+                    <p class="footer-link">webuye Bungoma, kenya</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2030 Portfolio. All rights reserved.</p>
+                <p>Designed with <i class="fas fa-heart" style="color: #ef4444;"></i> and code</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

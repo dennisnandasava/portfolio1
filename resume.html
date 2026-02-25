@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Denno</a>
+            
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="skills.html" class="nav-link">Skills</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="certifications.html" class="nav-link">Certifications</a>
+                <a href="resume.html" class="nav-link active">Resume</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Resume Header -->
+    <section class="resume-header">
+        <div class="container">
+            <div class="resume-title">
+                <h1>Professional <span class="highlight">Resume</span></h1>
+                <p>Detailed overview of my experience, education, and qualifications</p>
+            </div>
+            <div class="resume-controls">
+                <button class="print-btn" id="printBtn">
+                    <i class="fas fa-print"></i> Print Resume
+                </button>
+                <button class="view-toggle" id="viewToggle">
+                    <i class="fas fa-columns"></i> Toggle View
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Content -->
+    <main class="resume-content">
+        <div class="container resume-grid" id="resumeView">
+            <!-- Left Column -->
+            <div class="left-column">
+                <!-- Personal Information -->
+                <section class="resume-section">
+                    <div class="section-header">
+                        <i class="fas fa-user"></i>
+                        <h2>Personal Info</h2>
+                    </div>
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <strong>Name:</strong>
+                            <span>Dennis Wanyama Nandasava</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>Title:</strong>
+                            <span>Senior Full Stack Developer</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>Location:</strong>
+                            <span>Webuye Bungoma, Kenya</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>Email:</strong>
+                            <span>nandasavadennis@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>Phone:</strong>
+                            <span>+ (254)9 634-0800</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>Website:</strong>
+                            <span>Dwanyama.dev</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Education -->
+                <section class="resume-section">
+                    <div class="section-header">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h2>Education</h2>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-item animated">
+                            <div class="timeline-date">2022 - 2026</div>
+                            <div class="timeline-content">
+                                <h3>Bachelor of Information Technology</h3>
+                                <p class="institution">Kaimosi Friends University</p>
+                                <p class="description">Information Technology with focus on Software Engineering and Human-Computer Interaction</p>
+                                <div class="achievements">
+                                    <span class="achievement">GPA: 3.8/4.0</span>
+                                    <span class="achievement">Dean's List</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Certifications -->
+                <section class="resume-section">
+                    <div class="section-header">
+                        <i class="fas fa-certificate"></i>
+                        <h2>Certifications</h2>
+                    </div>
+                    <div class="cert-list">
+                        <div class="cert-item">
+                            <h3>AWS Solutions Architect</h3>
+                            <p class="cert-issuer">Amazon Web Services • 2023</p>
+                        </div>
+                        <div class="cert-item">
+                            <h3>Meta Frontend Developer</h3>
+                            <p class="cert-issuer">Meta • 2023</p>
+                        </div>
+                        <div class="cert-item">
+                            <h3>Azure Developer Associate</h3>
+                            <p class="cert-issuer">Microsoft • 2023</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Languages -->
+                <section class="resume-section">
+                    <div class="section-header">
+                        <i class="fas fa-language"></i>
+                        <h2>Languages</h2>
+                    </div>
+                    <div class="languages">
+                        <div class="language-item">
+                            <span>English</span>
+                            <div class="language-level">
+                                <div class="level-dot active"></div>
+                                <div class="level-dot active"></div>
+                                <div class="level-dot active"></div>
+                                <div class="level-dot active"></div>
+                                <div class="level-dot active"></div>
+                            </div>
+                            <span class="level-label">Native</span>
+                        </div>
+                        <div class="language-item">
+                            <span>Swahili</span>
+                            <div class="language-level">
+                                <div class="level-dot active"></div>
+                                <div class="level-dot active"></div>
+                                <div class="level-dot active"></div>
+                                <div class="level-dot"></div>
+                                <div class="level-dot"></div>
+                            </div>
+                            <span class="level-label">Intermediate</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Right Column -->
+            <div class="right-column">
+                <!-- Professional Summary -->
+                <section class="resume-section">
+                    <div class="section-header">
+                        <i class="fas fa-star"></i>
+                        <h2>Professional Summary</h2>
+                    </div>
+                    <div class="summary-content">
+                        <p>Senior Full Stack Developer with 4+ years of experience building scalable web applications and leading development teams. Proven expertise in modern JavaScript frameworks, cloud architecture, and system design. Passionate about creating efficient, user-friendly solutions that solve real-world problems.</p>
+                        <p>Strong background in both frontend and backend development, with a focus on performance optimization, security, and best practices. Excellent problem-solving skills and ability to mentor junior developers while delivering high-quality code.</p>
+                    </div>
+                </section>
+
+                <!-- Skills -->
+                <section class="resume-section">
+                    <div class="section-header">
+                        <i class="fas fa-code"></i>
+                        <h2>Technical Skills</h2>
+                    </div>
+                    <div class="skills-categories">
+                        <div class="skill-category">
+                            <h3>Frontend</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">Next.js</span>
+                                <span class="skill-tag">Vue.js</span>
+                                <span class="skill-tag">TypeScript</span>
+                                <span class="skill-tag">Redux</span>
+                                <span class="skill-tag">GraphQL</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Backend</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">Express</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">PostgreSQL</span>
+                                <span class="skill-tag">MongoDB</span>
+                                <span class="skill-tag">Redis</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Cloud & DevOps</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">AWS</span>
+                                <span class="skill-tag">Docker</span>
+                                <span class="skill-tag">Kubernetes</span>
+                                <span class="skill-tag">CI/CD</span>
+                                <span class="skill-tag">Terraform</span>
+                                <span class="skill-tag">Nginx</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Experience -->
+                <section class="resume-section">
+                    <div class="section-header">
+                        <i class="fas fa-briefcase"></i>
+                        <h2>Work Experience</h2>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="exp-header">
+                            <h3>Senior Frontend Developer</h3>
+                            <span class="exp-date">2022 - Present</span>
+                        </div>
+                        <p class="exp-company">TechSolutions Inc., San Francisco, CA</p>
+                        <ul class="exp-responsibilities">
+                            <li>Lead frontend development for enterprise SaaS platform serving 50k+ users</li>
+                            <li>Architected and implemented scalable component library used by 15+ teams</li>
+                            <li>Improved application performance by 40% through code optimization and caching strategies</li>
+                            <li>Mentored 5 junior developers and conducted weekly code reviews</li>
+                            <li>Collaborated with UX designers to implement responsive, accessible interfaces</li>
+                        </ul>
+                        <div class="exp-skills">
+                            <span class="exp-skill">React</span>
+                            <span class="exp-skill">TypeScript</span>
+                            <span class="exp-skill">GraphQL</span>
+                            <span class="exp-skill">AWS</span>
+                            <span class="exp-skill">Team Leadership</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="exp-header">
+                            <h3>Full Stack Developer</h3>
+                            <span class="exp-date">2020 - 2022</span>
+                        </div>
+                        <p class="exp-company">StartupXYZ, Mountain View, CA</p>
+                        <ul class="exp-responsibilities">
+                            <li>Developed customer-facing dashboard with real-time analytics using React and D3.js</li>
+                            <li>Built RESTful APIs and microservices using Node.js and Express</li>
+                            <li>Implemented secure authentication system and payment processing</li>
+                            <li>Reduced page load times by 60% through performance optimization</li>
+                            <li>Participated in Agile development processes and sprint planning</li>
+                        </ul>
+                        <div class="exp-skills">
+                            <span class="exp-skill">Node.js</span>
+                            <span class="exp-skill">MongoDB</span>
+                            <span class="exp-skill">React</span>
+                            <span class="exp-skill">Docker</span>
+                            <span class="exp-skill">Stripe API</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Projects -->
+                <section class="resume-section">
+                    <div class="section-header">
+                        <i class="fas fa-project-diagram"></i>
+                        <h2>Key Projects</h2>
+                    </div>
+                    <div class="projects-list">
+                        <div class="project-item">
+                            <h3>E-Commerce Platform</h3>
+                            <p>Built full-featured online shopping platform with payment integration, user accounts, and admin dashboard.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                                <span>Stripe</span>
+                            </div>
+                        </div>
+                        <div class="project-item">
+                            <h3>Analytics Dashboard</h3>
+                            <p>Developed real-time data visualization dashboard for business metrics with interactive charts.</p>
+                            <div class="project-tech">
+                                <span>Vue.js</span>
+                                <span>D3.js</span>
+                                <span>Express</span>
+                                <span>PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">Portfolio</div>
+                    <p class="footer-tagline">Building digital experiences that make a difference. Let's create something amazing together.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <a href="index.html" class="footer-link">Home</a>
+                    <a href="about.html" class="footer-link">About</a>
+                    <a href="projects.html" class="footer-link">Projects</a>
+                    <a href="contact.html" class="footer-link">Contact</a>
+                </div>
+                
+                <div class="footer-links">
+                    <h3 class="footer-title">Resources</h3>
+                    <a href="skills.html" class="footer-link">Skills</a>
+                    <a href="certifications.html" class="footer-link">Certifications</a>
+                    <a href="resume.html" class="footer-link">Resume</a>
+                    <a href="#" class="footer-link">Blog</a>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3 class="footer-title">Get In Touch</h3>
+                    <p class="footer-link">nandasavadennis@gmail.com</p>
+                    <p class="footer-link">+ (254) 79 634-0800</p>
+                    <p class="footer-link">webuye Bungoma county, kenya</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2030 Portfolio. All rights reserved.</p>
+                <p>Designed with <i class="fas fa-heart" style="color: #ef4444;"></i> and code</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script>
+        // Print functionality
+        document.getElementById('printBtn').addEventListener('click', function() {
+            window.print();
+        });
+
+        // Toggle view functionality
+        document.getElementById('viewToggle').addEventListener('click', function() {
+            const resumeView = document.getElementById('resumeView');
+            const icon = this.querySelector('i');
+            
+            if (resumeView.classList.contains('resume-single')) {
+                resumeView.classList.remove('resume-single');
+                resumeView.classList.add('resume-grid');
+                icon.className = 'fas fa-columns';
+                this.querySelector('span').textContent = ' Toggle View';
+            } else {
+                resumeView.classList.remove('resume-grid');
+                resumeView.classList.add('resume-single');
+                icon.className = 'fas fa-stream';
+                this.querySelector('span').textContent = ' Toggle View';
+            }
+        });
+
+        // Animate timeline items on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animated');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.timeline-item').forEach(item => {
+            observer.observe(item);
+        });
+    </script>
+</body>
+</html>

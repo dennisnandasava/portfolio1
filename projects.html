@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Denno</a>
+            
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="skills.html" class="nav-link">Skills</a>
+                <a href="projects.html" class="nav-link active">Projects</a>
+                <a href="certifications.html" class="nav-link">Certifications</a>
+                <a href="resume.html" class="nav-link">Resume</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Hero -->
+    <section class="projects-hero">
+        <div class="container">
+            <h1>My <span class="highlight">Projects</span></h1>
+            <p>A showcase of my work across different technologies and domains</p>
+        </div>
+    </section>
+
+    <!-- Project Filters -->
+    <section class="project-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                <button class="filter-btn" data-filter="opensource">Open Source</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-grid-section">
+        <div class="container">
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                 
+                <div class="project-card" data-category="web fullstack">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">E-Commerce</span>
+                        <h3>price comparison android app</h3>
+                        <p class="project-description">A full-featured online platform that enable users to compare prices across anline shoping platforms eg jumia,kilimall,masoko,jiji etc and admin dashboard.</p>
+                        <div class="project-tech">
+                            <span>android studio</span>
+                            <span>java</span>
+                            <span>firebase</span>
+                            <span>xml</span>
+                            <span>html,css,javascript</span>
+                        </div>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Real-time search results</li>
+                                <li>User reviews and ratings</li>
+                                <li>Advanced search and filters</li>
+                            </ul>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-primary">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="#" class="btn btn-outline">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+ <!-- Project 2 -->
+  <!-- Project 2 --
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Analytics</span>
+                        <h3>Business Analytics Dashboard</h3>
+                        <p class="project-description">Interactive dashboard for visualizing business metrics with real-time updates and customizable reports.</p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>D3.js</span>
+                            <span>Express</span>
+                            <span>PostgreSQL</span>
+                            <span>WebSocket</span>
+                        </div>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Real-time data visualization</li>
+                                <li>Custom report generation</li>
+                                <li>Team collaboration tools</li>
+                                <li>Export to PDF/Excel</li>
+                            </ul>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-primary">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="#" class="btn btn-outline">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                 <!-- Project 2 --
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Health & Fitness</span>
+                        <h3>Fitness Tracking App</h3>
+                        <p class="project-description">Mobile application for workout tracking, nutrition planning, and health progress monitoring.</p>
+                        <div class="project-tech">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>Redux</span>
+                            <span>GraphQL</span>
+                            <span>Expo</span>
+                        </div>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Workout planning and tracking</li>
+                                <li>Nutrition database integration</li>
+                                <li>Progress visualization</li>
+                                <li>Social sharing features</li>
+                            </ul>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-primary">
+                                <i class="fab fa-app-store"></i> App Store
+                            </a>
+                            <a href="#" class="btn btn-outline">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                 <!-- Project 2 --
+                <div class="project-card" data-category="opensource">
+                    <div class="project-image">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Developer Tools</span>
+                        <h3>UI Component Library</h3>
+                        <p class="project-description">Open-source React component library with accessibility focus and modern design system.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>TypeScript</span>
+                            <span>Storybook</span>
+                            <span>Jest</span>
+                            <span>Rollup</span>
+                        </div>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>50+ accessible components</li>
+                                <li>Full TypeScript support</li>
+                                <li>Comprehensive documentation</li>
+                                <li>Theming system</li>
+                            </ul>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-primary">
+                                <i class="fas fa-book"></i> Documentation
+                            </a>
+                            <a href="#" class="btn btn-outline">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                 <!-- Project 2 --
+                <div class="project-card" data-category="fullstack">
+                    <div class="project-image">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Communication</span>
+                        <h3>Real-time Chat Application</h3>
+                        <p class="project-description">Feature-rich messaging platform with real-time communication, file sharing, and video calls.</p>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>Socket.io</span>
+                            <span>MongoDB</span>
+                            <span>WebRTC</span>
+                            <span>Tailwind CSS</span>
+                        </div>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Real-time messaging</li>
+                                <li>Video/audio calls</li>
+                                <li>File sharing</li>
+                                <li>Group chats</li>
+                            </ul>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-primary">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="#" class="btn btn-outline">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                 <!-- Project 2 --
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Productivity</span>
+                        <h3>Project Management Tool</h3>
+                        <p class="project-description">Collaborative project management platform with task tracking, team coordination, and analytics.</p>
+                        <div class="project-tech">
+                            <span>Angular</span>
+                            <span>NestJS</span>
+                            <span>MySQL</span>
+                            <span>Redis</span>
+                            <span>Docker</span>
+                        </div>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Kanban boards</li>
+                                <li>Time tracking</li>
+                                <li>Team collaboration</li>
+                                <li>Progress analytics</li>
+                            </ul>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-primary">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="#" class="btn btn-outline">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>   
+    <!-- Project Stats -->
+    <section class="project-stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">5</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">2</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">5</div>
+                    <div class="stat-label">Technologies Used</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">2</div>
+                    <div class="stat-label">Open Source</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub Section -->
+    <section class="github-section">
+        <div class="container">
+            <div class="github-content">
+                <h2>Check Out My <span class="highlight">GitHub</span></h2>
+                <p>Explore more projects, contributions, and code samples on my GitHub profile.</p>
+                <a href="#" class="github-btn">
+                    <i class="fab fa-github"></i> Visit GitHub Profile
+                </a>
+            </div>
+        </div>
+    </section>
+
+   <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">Portfolio</div>
+                    <p class="footer-tagline">Building digital experiences that make a difference. Let's create something amazing together.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <a href="index.html" class="footer-link">Home</a>
+                    <a href="about.html" class="footer-link">About</a>
+                    <a href="projects.html" class="footer-link">Projects</a>
+                    <a href="contact.html" class="footer-link">Contact</a>
+                </div>
+                
+                <div class="footer-links">
+                    <h3 class="footer-title">Resources</h3>
+                    <a href="skills.html" class="footer-link">Skills</a>
+                    <a href="certifications.html" class="footer-link">Certifications</a>
+                    <a href="resume.html" class="footer-link">Resume</a>
+                    <a href="#" class="footer-link">Blog</a>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3 class="footer-title">Get In Touch</h3>
+                    <p class="footer-link">nandasavadennis@gmail.com</p>
+                    <p class="footer-link">+ (254) 79 634-0800</p>
+                    <p class="footer-link">webuye Bungoma, kenya</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2030 Portfolio. All rights reserved.</p>
+                <p>Designed with <i class="fas fa-heart" style="color: #ef4444;"></i> and code</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
